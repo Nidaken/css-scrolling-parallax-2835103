@@ -1,7 +1,7 @@
 const { src, dest, series, parallel, watch } = require('gulp')
 const browserSync = require('browser-sync').create()
 const origin = 'build'
-const destination = 'build'
+
 
 function html(cb) {
   cb()
